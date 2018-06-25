@@ -1,4 +1,4 @@
-package com.mycompany.multithread;
+package com.forkjoinpool.examples;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -79,6 +79,7 @@ class FolderProcessor extends RecursiveTask<List<String>>{
         return fileName.endsWith(fileExtension);
     }
 }
+
 public class ForkJoinPoolClass {
 
     public static void main(String[] args) {
