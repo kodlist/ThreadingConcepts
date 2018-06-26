@@ -23,6 +23,12 @@ import java.util.concurrent.RecursiveTask;
  *
  * couple of classes exist in this file.  Document, Folder, WordCounter, DocumentSearchTask,  FolderSearchTask
  *
+ * Fork Join Pool uses work stealing algorithm.
+ *
+ * 1. Divide: Break the given problem into subproblems of same type.
+ * 2. Conquer: Recursively solve these subproblems
+ * 3. Combine: Appropriately combine the answers
+ *
  */
 
 class Document {
